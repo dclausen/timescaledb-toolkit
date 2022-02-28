@@ -55,7 +55,7 @@ cargo pgx install --release && \
 cargo run --manifest-path ../tools/post-install/Cargo.toml -- pg_config
 ```
 
-To initialize the extension afer installation, star enter the following into `psql`:
+To initialize the extension afer installation, enter the following into `psql`:
 ```
 CREATE EXTENSION timescaledb_toolkit;
 ```
